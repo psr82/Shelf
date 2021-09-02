@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Shelf/static/css/main.a617e044.chunk.css",
-    "main.js": "/Shelf/static/js/main.adb0e6d2.chunk.js",
-    "main.js.map": "/Shelf/static/js/main.adb0e6d2.chunk.js.map",
-    "runtime-main.js": "/Shelf/static/js/runtime-main.dc613b5f.js",
-    "runtime-main.js.map": "/Shelf/static/js/runtime-main.dc613b5f.js.map",
-    "static/js/2.756a362e.chunk.js": "/Shelf/static/js/2.756a362e.chunk.js",
-    "static/js/2.756a362e.chunk.js.map": "/Shelf/static/js/2.756a362e.chunk.js.map",
-    "static/js/3.1c5091e7.chunk.js": "/Shelf/static/js/3.1c5091e7.chunk.js",
-    "static/js/3.1c5091e7.chunk.js.map": "/Shelf/static/js/3.1c5091e7.chunk.js.map",
-    "index.html": "/Shelf/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/Shelf/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.756a362e.chunk.js.LICENSE.txt": "/Shelf/static/js/2.756a362e.chunk.js.LICENSE.txt",
-    "static/media/board.8d3a2cfc.png": "/Shelf/static/media/board.8d3a2cfc.png",
-    "static/media/locker.558d428d.png": "/Shelf/static/media/locker.558d428d.png"
+    "main.css": "/static/css/main.a617e044.chunk.css",
+    "main.js": "/static/js/main.adb0e6d2.chunk.js",
+    "main.js.map": "/static/js/main.adb0e6d2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fc251f85.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fc251f85.js.map",
+    "static/js/2.756a362e.chunk.js": "/static/js/2.756a362e.chunk.js",
+    "static/js/2.756a362e.chunk.js.map": "/static/js/2.756a362e.chunk.js.map",
+    "static/js/3.1c5091e7.chunk.js": "/static/js/3.1c5091e7.chunk.js",
+    "static/js/3.1c5091e7.chunk.js.map": "/static/js/3.1c5091e7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.756a362e.chunk.js.LICENSE.txt": "/static/js/2.756a362e.chunk.js.LICENSE.txt",
+    "static/media/board.8d3a2cfc.png": "/static/media/board.8d3a2cfc.png",
+    "static/media/locker.558d428d.png": "/static/media/locker.558d428d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc613b5f.js",
+    "static/js/runtime-main.fc251f85.js",
     "static/js/2.756a362e.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.adb0e6d2.chunk.js"
