@@ -1,0 +1,148 @@
+html { font-size:62.5%; }
+
+@media (max-width: 640px) { body {font-size:0.6rem;} }
+@media (max-width:960px) { body {font-size:0.7rem;} }
+@media (max-width:1100px) { body {font-size:0.8rem;} }
+@media (max-width:1600px) { body {font-size:1.1rem;} }
+@media (max-width:1950px) { body {font-size:1.3rem;} }
+
+/* @media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.1rem;} }
+@media (min-width:1100px) { body {font-size:1.2rem;} } */
+
+.background {
+
+}
+.paperContainer {
+  /* margin: 0%;
+  padding: 0%; */
+  height: 100%;
+  /* height: 108.0rem; */
+  width: 100%;
+  position: relative;
+  background: radial-gradient(
+    50% 55.89% at 0% 44.11%,
+    #35373d 0%,
+    #1d1e21 100%
+  );
+  padding-bottom: 53.85%;
+}
+.shelfWebLogo {
+  position: absolute;
+  width: 2.8rem;
+  height: 5.0rem;
+  left: 7.0rem;
+  top: 5.2rem;
+
+  /* background: #ffffff; */
+  box-shadow: .0rem .4rem .4rem rgba(0, 0, 0, 0.25);
+}
+.shelfTextLogo {
+  position: absolute;
+  width: 9.7rem;
+  height: 3.5rem;
+  left: 11.0rem;
+  top: 5.5rem;
+
+  /* background: #ffffff; */
+}
+.locker {
+  position: absolute;
+  width: 45.0rem;
+  height: 46.5rem;
+  left: .0rem;
+  top: 12.0rem;
+}
+.board {
+  position: absolute;
+  width: 100%;
+  height: 32.65rem;
+  left: -.2rem;
+  top: 38.0rem;
+  bottom: 0rem;
+}
+.tagline {
+  position: absolute;
+  width: 51.8rem;
+  height: 16.6rem;
+  left: 69.0rem;
+  top: 12.0rem;
+  font-family: "Poppins";
+  text-align: left;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 5.0rem;
+  line-height: 5.3rem;
+  letter-spacing: 0.02rem;
+
+  color: #ffffff;
+}
+
+.tagline2 {
+  position: absolute;
+  width: 40.8rem;
+  height: 7.6rem;
+  left: 69.0rem;
+  top: 27.0rem;
+  font-family: "Poppins";
+  text-align:left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.2rem;
+  line-height: 3.7rem;
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+}
+.buttonForRequest {
+  position: absolute;
+  width: 28.9rem;
+  height: 4.4rem;
+  left: 15.5rem;
+  top: 45.0rem;
+  
+}
+
+.textForRequest{
+position: absolute;
+/* width: 27.3rem;
+height: 3.0rem; */
+/* left: 2.5rem;
+top: 1.0rem; */
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 3.0rem;
+text-align: center;
+/* identical to box height */
+text-transform:none;
+letter-spacing: 0.02rem;
+color: #000000;
+}
+/* @media (max-width: 1800px ) {
+  .buttonForRequest {
+    left: -12.5rem;
+    
+  }
+} */
+
+@media screen and (min-width:1500px) and (max-width: 2020px) {
+  .buttonForRequest {
+    left: -12.5rem;
+    
+  }
+}
+@media  screen and (min-width: 900px) and (max-width: 1500px) {
+  .buttonForRequest {
+    left: 15.5rem;
+    
+  }
+  
+}
+/* @media (max-width: 1520px) {
+  .buttonForRequest {
+    left: -12.5rem;
+    
+  }
+} */
