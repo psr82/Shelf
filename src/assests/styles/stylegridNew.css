@@ -1,0 +1,354 @@
+html {
+  font-size: 62.5%;
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 960px) {
+  html {
+    font-size: 1.05rem;
+  }
+}
+@media (min-width: 1100px) {
+  html {
+    font-size: 1.1rem;
+  }
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    50% 55.89% at 0% 44.11%,
+    #35373d 0%,
+    #1d1e21 100%
+  );
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.logoImages {
+  display: flex;
+  flex-direction: row;
+  width: 49%;
+  padding: 2em;
+  vertical-align: top;
+  padding-bottom: 5em;
+}
+
+.shelfWebLogo {
+  width: 12%;
+  padding: 2.2em;
+  padding-right: 1.5em;
+}
+
+.shelfTextLogo {
+  width: 44%;
+  padding: 2.2em 0em 3em 0em;
+}
+
+.material {
+  padding-bottom: 4em;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.textAndButton {
+  order: 1;
+  padding-left: 3em;
+  padding-bottom: 2.5em;
+}
+.lockerAndBoard {
+  order: 2;
+}
+
+.lockerAndBoard {
+  width: 100%;
+  align-content: flex-start;
+  overflow: hidden;
+}
+
+.boardLockerCombined {
+  width: 135%;
+}
+
+.tagline {
+  font-family: "Poppins";
+  margin-top: 0;
+  text-align: left;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.8rem;
+
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+}
+
+.tagline2 {
+  font-family: "Poppins";
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+  padding-bottom: 1.5em;
+}
+
+.buttonForRequest {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  text-transform: none;
+  letter-spacing: 0.02rem;
+  color: #000000;
+  width: 60%;
+
+  border-radius:0.5rem ;
+}
+
+@media (min-width: 900px) {
+  .logoImages {
+    width: 18%;
+    padding-bottom: 0em;
+  }
+  .material {
+    display: block;
+    overflow: hidden;
+  }
+
+  .lockerAndBoard {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+  }
+  .boardLockerCombined {
+    width: 100%;
+  }
+  .textAndButton {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 50%;
+  }
+  .tagline {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.02rem;
+    margin-bottom: 0.05em;
+  }
+
+  .tagline2 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    padding-bottom: 0.2em;
+  }
+  .buttonForRequest {
+    width: 65%;
+    line-height: 1.8rem;
+  }
+}
+@media (min-width: 1024px) {
+  .material {
+    display: block;
+    position: relative;
+    overflow: visible;
+  }
+  .textAndButton {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -5%;
+    left: 42%;
+    width: 50%;
+  }
+  .tagline {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.02rem;
+    margin-bottom: 0.05em;
+  }
+
+  .tagline2 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    padding-bottom: 0.2em;
+  }
+  .buttonForRequest {
+    width: 58%;
+  }
+}
+@media (min-width: 1090px) {
+  .textAndButton {
+    
+    top: -1%;
+  }
+}
+@media (min-width: 1100px) {
+  .material {
+    display: block;
+    position: relative;
+    overflow: visible;
+  }
+  .textAndButton {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -3%;
+    left: 42%;
+    width: 50%;
+  }
+  .tagline {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.02rem;
+    margin-bottom: 0.05em;
+  }
+
+  .tagline2 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    padding-bottom: 0.2em;
+  }
+  .buttonForRequest {
+    width: 58%;
+  }
+}
+
+@media (min-width: 1250px) {
+  .textAndButton {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -5%;
+    left: 42%;
+    width: 50%;
+  }
+  .tagline {
+    font-size: 3rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.02rem;
+    margin-bottom: 0.05em;
+  }
+
+  .tagline2 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.02rem;
+    padding-bottom: 0.2em;
+  }
+  .buttonForRequest {
+    width: 58%;
+  }
+}
+@media (min-width: 1350px) {
+  .textAndButton {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -3%;
+    left: 42%;
+    width: 50%;
+  }
+}
+@media (min-width: 1440px) {
+  .textAndButton {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -1%;
+    left: 42%;
+    width: 50%;
+  }
+}
+@media (min-width: 1600px) {
+  .tagline {
+    font-size: 4rem;
+    line-height: 4.2rem;
+    margin-bottom: 0.0em;
+  }
+  .tagline2 {
+    font-size: 1.8rem;
+    padding-bottom: 0em;
+    line-height: 2.2rem;
+  }
+  .textAndButton {
+    position: absolute;
+    top: -3%;
+    left: 45%;
+    width: 50%;
+  }
+  .buttonForRequest {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .tagline {
+    font-size: 4rem;
+    margin-bottom: 0.0em;
+  }
+  .tagline2 {
+    font-size: 1.8rem;
+    padding-bottom: 0em;
+  }
+  .textAndButton {
+    position: absolute;
+    top: 2%;
+    left: 46%;
+    width: 50%;
+  }
+  .buttonForRequest {
+    width: 50%;
+  }
+}
+
+@media (min-width: 2200px) {
+  .logoImages {
+    padding-bottom: 4em;
+  }
+  .tagline {
+    line-height: 4.8rem;
+    font-size: 5rem;
+    margin-bottom: 0.0em;
+  }
+  .tagline2 {
+    line-height: 3.3rem;
+    font-size: 2.8rem;
+    padding-bottom: 0;
+  }
+  .textAndButton {
+    position: absolute;
+    top: -2%;
+    left: 46%;
+    width: 50%;
+  }
+  .buttonForRequest {
+    width: 50%;
+  }
+}

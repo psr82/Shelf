@@ -92,7 +92,7 @@ const useStyles = makeStyles({
     textTransform: "none",
   },
 });
-export default function Landing() {
+export default function TestLanding() {
   const classes = useStyles();
   const [open, setOpen]= useState(false);
   const handleOpen = ()=>{

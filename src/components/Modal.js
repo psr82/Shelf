@@ -51,7 +51,8 @@ export default function TransitionsModal(props) {
         <Fade in={open}>
           <div className={classes.paper}>
             <h2 id="transition-modal-title">We're building it for you</h2>
-            <TextField placeholder="Email Address" id="transition-modal-description" ></TextField>
+            <TextField type="email"
+            placeholder="Email Address" id="transition-modal-description" ></TextField>
             <Button variant="outlined" backgroundColor="#6e7175" onClick={handleClose}>Submit</Button>
             <p id="transition-modal-description">Will reach you soon, Thanks!</p>
           </div>
